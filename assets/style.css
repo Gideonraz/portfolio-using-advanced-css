@@ -1,0 +1,99 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-primary:'Lato', sans-serif;
+    --ff-secondary:'Urbanist', sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold:900;
+
+    --clr-light: lightblue;
+    --clr-dark: ;
+    --clr-accent: ;
+
+    --fs-h1: 3rem;
+    --fs-h2:2.25rem;
+    --fs-h3:1.25rem;
+    --fs-body:1rem;
+
+}
+
+@media (min-width:800px){
+:root{
+    --fs-h1:4.5;
+    --fs-h2:3.75rem;
+    --fs-h3:1.5rem;
+    --fs-body:1.125rem;
+    }
+
+}
+
+/* General styles */
+body{
+    background: var(--clr-light);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <header>
+        <h1><strong>Gideon Razzaq's Portfolio<strong></h1>
+
+    </header>
+  <h2 id=contact-heading>About Me</h2>
+<aside>
+  <h3 id=portfolio-links>Portfolio Links</h3>
+    <ul>
+<li id="Email"><a href="https://www.google.com"><b>Email:gideonrazzaq1158@gmail.com</b></a></li>
+</li>
+
+    </ul>
+    <main>
+    <section><section class="card">
+        <header><hover>GitHub</hover></header>
+        <img src="https://github.com/" alt="portfolio" />
+        <p>Price: $300</p>
+      </section>
+      <section class="card">
+        <header>Tablet</header>
+        <img src="./assets/images/tablet.jpg" alt="tablet" />
+        <p>Price: $150</p>
+      </section>
+      <section class="card">
+        <header>Toilet Paper</header>
+        <img src="./assets/images/toilet-paper.jpg" alt="toilet paper" />
+        <p>Price: $30</p>
+</aside>
+</main>
+
+
+
+</body>
+</html> */
