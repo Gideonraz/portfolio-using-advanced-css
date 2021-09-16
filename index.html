@@ -5,61 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="assets/style.css"/>    
-    <title>Document</title>
+    <title>Portfolio Website</title>
 </head>
 <body>
     
     <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+        </button>
     <nav class="nav">
         <ul class="nav_list">
-        <li class="nav_item"><a href="#" class="nav_link">Home</a></li>
-        <li class="nav_item"><a href="#" class="nav_link">My Services</a></li>
-        <li class="nav_item"><a href="#" class="nav_link">My Work</a></li>
-        <li class="nav_item"><a href="#" class="nav_link">Contact Info</a></li>
+        <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+        <li class="nav_item"><a href="#work" class="nav_link">My Work</a></li> 
+        <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+        <li class="nav_item"><a href="#contact-info" class="nav_link">Contact Info</a></li>
+        
 
         </ul>
         </nav>
     </header>
 
 
+<!-- Intro -->
     <section class="intro" id="home">
         <h1 class="section-title section">
             Hello, I am <strong>Gideon Razzaq</strong>
             </h1>
-            <p class="section-subtitle">Web Developer
-                <img src="">
-            </p>
+            <p class="section-subtitle-intro">Web Developer </p>
+                <img src=https://www.noupe.com/wp-content/uploads/2020/03/Screen-Shot-2020-03-26-at-10.00.43.png
+                alt="picture of jane" class="intro-img">
     </section>
-<section>
+
+
+<!-- My Services -->
+    <section class="my-services" >
         <h2 class="section-title">What I do</h2>
         <div class="services">
             <div class="service">
-                <h3></h3>
-                <p></p>
+                <h3>Design & Development</h3>
+                <p>Much of the actual creation of software programs happens through the writing of code,
+                     and software developers oversee that. Depending on the company where they work, 
+                     a software developer will analyze the needs of the user and then create, 
+                     test and develop software that will solve a problem, provide entertainment or
+                      simply make life easier for its intended audience.</p>
             </div>
            
             <div class="service">
-                <h3></h3>
-                <p></p>
+                <h3>Services</h3>
+                <p>Web development refers to building, creating, and maintaining websites. 
+                    It includes aspects such as web design, web publishing, web programming, 
+                    and database management.</p>
           
             </div> <div class="service">
                 <h3></h3>
                 <p></p>
             </div> 
-       <a href="work" class="btn">My Work</a>
+       <a  class="btn">My Work</a>
     </section>
 
 
     <!-- About me -->
     <section class="about me" id="about">
-        <h2 class="section-title_about">Who I am</h2>
-        <p class="section-subtitle_about"></p>
+        <h2 class="section-title-about">Who I am</h2>
+        <p class="section-subtitle-about"></p>
 
         <div class="about-me-body">
-            <p></p>
+            <p> My name is Gideon Razzaq and I am an engineer who can handle all the work of databases, servers, systems engineering, 
+                and clients. Depending on the project, what customers need may be a mobile stack, 
+                a Web stack, or a native application stack. I also am qualified to design and develope 
+                websites and more.</p>
         </div>
 
-        <img src="." alt=".">
+        <img src="https://www.shillingtoneducation.com/content-blog/uploads/2017/11/photo-of-designer-creating-a-website.jpg"  alt="picture of man on computer">
     </section>
 
     <!-- My Work -->
@@ -68,19 +88,29 @@
         <p class="section-subtitle"></p>
 
         <div class="portfolio">
-        <a href="#" class="portfolio-item">
-            <img src="." alt="portfolio_img">
+    
+            <a href="file:///C:/Users/Gideon's%20Laptop/Mini-Project/index.html" class="portfolio-item">
+            <img src="file:///C:/Users/Gideon's%20Laptop/Pictures/2021-09-15.png" height="150px"alt="portfolio_img">
+            </a>
+            <p>My Deployed Site</p>
+
+            <a href=".">
+                <img src="file:///C:/Users/Gideon's%20Laptop/Pictures/2021-09-15%20(1).png" height="150px"alt="portfolio_img">
+                </a>
+                <p>Another one of my Sites</p>
+
+
         </a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <a href="mailto:gideonrazzaq1158@gmail.com" class="footer-link">Gideonrazzaq1158@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list-items"><a class="social-list-link" href=".">A</a></li>
-            <li class="social-list-items"><a class="social-list-link" href=".">B</a></li>
-            <li class="social-list-items"><a class="social-list-link" href=".">C</a></li>
+        
+        <ul class="social-list" id="contact-info">
+            <li class="social-list-items"><a class="social-list-link" href="https://github.com/">Github</a></li>
+            <li class="social-list-items"><a class="social-list-link" href="https://github.com/">Portfolio</a></li>
+            <li class="social-list-items"><a href="mailto:gideonrazzaq1158@gmail.com" class="footer-link">Gideonrazzaq1158@gmail.com</a></li>
         </ul>
     </footer>
 
